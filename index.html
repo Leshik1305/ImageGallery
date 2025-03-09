@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+    <div class="progress">
+      <div class="bar"></div>
+    </div>
+    <div class="container">
+      <div class="thumb">
+        <div class>
+          <img
+            data-index="0"
+            src="https://picsum.photos/300/200?random=1"
+            class="current"
+          />
+        </div>
+        <div class>
+          <img
+            data-index="1"
+            src="https://picsum.photos/300/200?random=2"
+            class="current"
+          />
+        </div>
+        <div class>
+          <img
+            data-index="2"
+            src="https://picsum.photos/300/200?random=3"
+            class="current"
+          />
+        </div>
+        <div class>
+          <img
+            data-index="3"
+            src="https://picsum.photos/300/200?random=4"
+            class="current"
+          />
+        </div>
+      </div>
+
+      <div class="preview">
+        <img class src="" alt="#" />
+        <div class="authorTitle">Author</div>
+        <div class="author"></div>
+      </div>
+
+      <div class="buttons">
+        <button class="new">NEW</button>
+        <button class="play">PLAY</button>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Random image app by <strong>Alexey Sorokin</strong></p>
+    </div>
+  </body>
+</html>
